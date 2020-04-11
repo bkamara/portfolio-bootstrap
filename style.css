@@ -71,6 +71,9 @@ button.theme-submit:hover {
 .theme-footer{
     color: #36454f;
     min-height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
