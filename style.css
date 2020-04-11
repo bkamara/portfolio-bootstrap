@@ -1,0 +1,93 @@
+.fixed-top {
+    position: sticky;
+}
+.nav {
+    justify-content: flex-end;
+}
+.nav-theme{
+    color: #36454f;
+    font-size: small;
+    background-color: #fff;
+    border-bottom: solid .5px #36454f60;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15)
+}
+a.nav-link.nav-anchor:link,
+a.nav-link.nav-anchor:visited,
+a.nav-link.nav-anchor:hover,
+a.nav-link.nav-anchor:active,
+.footer-link {
+    color: #36454f;    
+
+}
+.nav-link {
+    padding: .5rem;
+}
+
+#ducky-logo {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+#bunker-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+#bunker-logo-footer {
+    width: 50px;
+    height: auto;
+}
+#bunker-office-image {
+    background: url(./images/bunker-office.svg) no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.about, .theme-footer {
+    background-color: #F7E321;
+}
+#about-us-text {
+    width: 250px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+#the-team{
+    width: 250px;
+    display: block;
+}
+.theme-jumbotron {
+    background-color: #F7E321;
+}
+.theme-submit, 
+button.theme-submit:link, 
+button.theme-submit:visited,
+button.theme-submit:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+    width: 100px;
+}
+
+.theme-footer{
+    color: #36454f;
+    min-height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        justify-content: space-around;
+    }
+    #ducky-logo { 
+        width: 40px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #bunker-logo { width: 200px; }
+    #bunker-office-image {
+        background-size: cover;
+        min-height: 250px;
+    }
+    #contact-us-info {
+        display: none;
+    }
+}
